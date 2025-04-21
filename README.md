@@ -4,17 +4,17 @@ This React frontend is for the YouTube-like video preview application. It fetche
 
 ## Requirements
 
-Node.js & npm
-React 17+
-TypeScript
+1. Node.js & npm
+2. React 17+
+3. TypeScript
 
 ## Features
 
-Responsive grid layout
-Interactive mode: videos play on hover and pause when leaves
-Static mode: shows blurred thumbnail
-Search input - triggers when 3 characters are typed
-Mute and Unmute the video
+1. Responsive grid layout
+2. Interactive mode: videos play on hover and pause when leaves
+3. Static mode: shows blurred thumbnail
+4. Search input - triggers when 3 characters are typed
+5. Mute and Unmute the video
 
 ## Setup Instructions
 
@@ -35,9 +35,11 @@ Mute and Unmute the video
 
 ## How to Run
 
-git clone <url>
-cd youtube_video_preview
-npm install
-npm start
+1. git clone https://github.com/jmd96-swathika/youtube-like-video-preview.git
+2. cd youtube-like-video-preview
+3. npm install
+4. Add .env file
+    REACT_APP_API_BASE_URL=http://localhost:8000
+5. npm start
 
 This runs at: http://localhost:3000
