@@ -19,27 +19,32 @@ This React frontend is for the YouTube-like video preview application. It fetche
 ## Setup Instructions
 
 1. Create React App
-    npx create-react-app youtube_video_preview --template typescript
-    cd youtube_video_preview
+    >
+        npx create-react-app youtube_video_preview --template typescript
+        cd youtube_video_preview
 
 2. Set Environment Variable
-    Create .env in project root:
+    > Create .env in project root:
+
         REACT_APP_API_BASE_URL=http://localhost:8000
 
 3. Use Environment Variable in API Calls
-    const BASE_URL = process.env.REACT_APP_API_BASE_URL;
+    >
+        const BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
 4. Start the Development Server
-    npm install
-    npm start
+    >
+        npm install
+        npm start
 
 ## How to Run
 
-1. git clone https://github.com/jmd96-swathika/youtube-like-video-preview.git
-2. cd youtube-like-video-preview
-3. npm install
-4. Add .env file
-    REACT_APP_API_BASE_URL=http://localhost:8000
-5. npm start
+>
+    git clone https://github.com/jmd96-swathika/youtube-like-video-preview.git
+    cd youtube-like-video-preview
+    npm install
+    Add .env file
+        REACT_APP_API_BASE_URL=http://localhost:8000
+    npm start
 
 This runs at: http://localhost:3000
